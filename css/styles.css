@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  width: auto;
+  height: auto;
+  background: url("../images/ylos4.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.kuka, .about, .portfolio {
+  margin: 0;
+  padding-bottom: 50px;
+  width: 100%;
+  height: auto; 
+  background-image: url("../images/ylos4.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat-y;
+}
+#header {
+  position: relative;
+  margin: 0;
+  height: 120px;
+  width: 100%;
+  background-color: #fff;
+  color: orange
+}
+#menu {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-62%, -38%);
+  background-color:#fff;
+}
+#menu li {
+  list-style: none;
+  display: inline-block;   
+
+}
+#menu li a {
+  font: bold 28px "Courier new";
+  color: orange;
+  text-decoration: none;
+  display: block;
+  padding: 0 0 0 12px;
+}
+#menu li a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#menu li a.active {
+  background-color: rgb(82, 79, 79);
+  color: white;
+}
+.etusivu #etusivu a, .about #about a, .kuka #kuka a, .portfolio #portfolio a {
+  color: grey;
+}
+#maincontent h1 {
+  color: #fff;
+  font: bold 48px "Courier new";
+  padding-top: 100px;
+  text-align:center;
+}
+.section {
+  margin: 50px auto;
+  padding: 15px;
+  width: 50%;
+  background-color: #fff;
+  font: bold 15px "Courier new";
+  color: orange;
+}
+.profiili {
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+#cv{
+  text-align: center;
+}
+#cv a {
+  font: bold 30px "Courier new";
+  color: orange;
+}
+.img3d {
+  width: 75%;
+  height: auto;
+  margin: 5px auto;
+}
+.wpimg {
+  max-width: 95%;
+}
+
+hr {
+  border-top: 1px dotted black;
+}
+
+@media screen and (max-width: 600px) {   
+html {
+  margin: 0;
+  width: 100%;
+}
+#header{
+  float:left;
+  height: 200px;
+  margin-bottom: 50px;
+}
+#menu li {
+  float: left;
+}
+.section{
+  float: left;
+  width: auto;
+}
+.profiili {
+  display: none;
+}
+}
